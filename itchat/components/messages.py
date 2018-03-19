@@ -1,7 +1,7 @@
 import os, time, re, io
 import json
 import mimetypes, hashlib
-import logging
+import traceback, logging
 from collections import OrderedDict
 
 import requests
